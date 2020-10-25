@@ -11,11 +11,11 @@
 #define LED_HIJAU D1
 #define BUZZ D2
 
-const char *ssid = "Achlis Djafar";
-const char *password = "kartika123";
-const char *mqtt_server = "192.168.43.38";
-const char *mqtt_user = "achlisdjafar";
-const char *mqtt_password = "sembarang";
+const char *ssid = "Di isi dengan SSID wifi";
+const char *password = "di isi dengan password wifi";
+const char *mqtt_server = "di isi dengan IP server MQTT";
+const char *mqtt_user = "di isi dengan user MQTT";
+const char *mqtt_password = "di isi dengan password MQTT";
 
 char pesanPUB[256];
 String pesanSUB;
@@ -169,9 +169,7 @@ void loop()
     digitalWrite(LED_HIJAU, HIGH);
     delay(100);
     digitalWrite(BUZZ, LOW);
-    //delay(500);
     digitalWrite(LED_HIJAU, LOW);
     tag = "";
-    //}
   }
 }
