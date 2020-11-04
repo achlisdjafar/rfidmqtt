@@ -105,10 +105,10 @@ void callback(char *topic, byte *payload, unsigned int length)
     else
     {
       digitalWrite(LED_HIJAU, HIGH);
-      digitalWrite(BUZZ, HIGH);
+      //digitalWrite(BUZZ, HIGH);
       delay(100);
       digitalWrite(LED_HIJAU, LOW);
-      digitalWrite(BUZZ, LOW);
+      //digitalWrite(BUZZ, LOW);
     }
   }
   Serial.println();
